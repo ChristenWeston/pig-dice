@@ -8,29 +8,31 @@
   <title>Pigdice</title>
 </head>
 <body>
-
+<div id="pigGame">
   <div id="startGame">
     <button type="submit" class="btn-start">Start Game</button>
   </div>
-
   <div id="game">
     <p>Player Turn: <span class="playerTurn"></span></p>
     <div id="player1">
       <p>Player 1</p>
       <p>Dice Roll: <span class="player1-roll"></span></p>
       <p>Score: <span class="player1-score"></span></p>
-      <button type="submit" class="btn-roll1">Roll Dice</button>
+      <button type="submit" class="btn-roll1">Roll Dice!</button>
       <button type="submit" class="btn-hold1">Hold Turn</button>
     </div>
     <div id="player2">
       <p>Player 2</p>
       <p>Dice Roll: <span class="player2-roll"></span></p>
       <p>Score: <span class="player2-score"></span></p>
-      <button type="submit" class="btn-roll2">Roll Dice</button>
+      <button type="submit" class="btn-roll2">Roll Dice!</button>
       <button type="submit" class="btn-hold2">Hold Turn</button>
     </div>
     <div id="winner">
       <span class="winner"></span></p>
+    </div>
+    <div id="newGame">
+      <button type="reset" class="btn-newGame" onClick="window.location.reload();">New Game</button>
     </div>
   </div>
 
