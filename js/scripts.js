@@ -97,6 +97,7 @@ $(document).ready(function() {
   $("#startGame").click(function(event){
   event.preventDefault();
   $("#game").show();
+  $(".play-game").hide();
   player1 = new Player(1);
   player2 = new Player(2);
   diceLog1 = [];

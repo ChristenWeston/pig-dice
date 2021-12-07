@@ -77,6 +77,13 @@ html, body{
   background-color: rgba(255, 255, 255, 0.808)
 }
 
+.play-game{
+  font-family: 'Major Mono Dsplay', monospace;
+  text-align: center;
+  color: black;
+  font-size: 45px;
+}
+
 #player1{
 font-size: 30px;
 text-align: center;
